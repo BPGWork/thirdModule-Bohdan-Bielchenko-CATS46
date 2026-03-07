@@ -1,0 +1,16 @@
+[ {
+  "login" : "admin",
+  "password" : "$2a$12$X3d/Jz.t3o0KXlEt4zAG7uQmuHYmeO3lmy35bWZ3dcw23Q4pRzPoS",
+  "resultOfStoryEndings" : 0,
+  "listOfStoryEndings" : [ ]
+}, {
+  "login" : "BPG",
+  "password" : "$2a$12$GctkQlNJax/USPEhgBUvxefwEyTF7hJnIHo4q7v5gQE.FFEC.G8pq",
+  "resultOfStoryEndings" : 0,
+  "listOfStoryEndings" : [ ]
+}, {
+  "login" : "q",
+  "password" : "$2a$12$JHJhnmjxNdQwnv/EdNvJsOjZQCsVKCaAPWP/CHV0n0c3x6ii9mXAK",
+  "resultOfStoryEndings" : 3,
+  "listOfStoryEndings" : [ "Midnight at Blackwood Hotel: END: Вранці на дверях твого номера з'являється напис: «Ти теж запізнився». Кінцівка: Позначений.", "Midnight at Blackwood Hotel: END: Поліція приїжджає, але готель виявляється давно покинутим. Кінцівка: Порожня справа.", "RealityBreakdown: END: Свідомість деактивовано. Нульова ініціалізація." ]
+} ]

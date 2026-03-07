@@ -1,0 +1,130 @@
+body {
+    max-width: 100vw;
+}
+.container {
+    max-width: 80vw;
+    max-height: 100%;
+
+    margin: 0 auto;
+    align-items: center;
+}
+
+/* HEADER */
+.block__header {
+    width: 100%;
+    height: 100px;
+}
+.block__nav {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.block__logo {
+    width: 20%;
+    height: inherit;
+}
+.logo__title {
+    margin: 0 auto;
+    text-align: center;
+
+    color: black;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 100px;
+    cursor: pointer;
+}
+.block__profile {
+    width: 10vh;
+    height: 65%;
+}
+.block__profile form {
+    width: 100%;
+    height: 100%;
+}
+.profile {
+    width: 100%;
+    height: 100%;
+
+    display: block;
+    background: url("../image/default-ico-profile.jpg") center/ 100%  no-repeat;
+}
+
+/* block__content */
+.block_content {
+    width: 100%;
+    height: auto;
+}
+.grid__container {
+    width: 100%;
+    height: auto;
+
+    display: grid;
+    gap: 3%;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+.block__history {
+    height: 15vw;
+}
+.block__history form {
+    width: 100%;
+    height: 100%;
+}
+.history {
+    width: 100%;
+    height: 100%;
+
+    border: 2px solid black;
+    border-radius: 10px;
+
+    color: #f1f1f1;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.block__login {
+    width: 100vw;
+    height: 100vh;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    background: #fff;
+}
+.login__form {
+    width: auto;
+    height: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (width <= 760px) {
+    .grid__container {
+        grid-template-columns: 1fr 1fr;
+    }
+    .block__history {
+        height: 20vw;
+    }
+}
+
+@media screen and (width <= 570px) {
+    .grid__container {
+        grid-template-columns: 1fr;
+    }
+    .block__history {
+        height: 40vw;
+    }
+}
+ @media (max-width: 600px) {
+    #authModal {
+      width: 90%;
+      padding: 30px;
+    }
+}
