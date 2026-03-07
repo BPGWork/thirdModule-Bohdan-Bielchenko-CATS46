@@ -16,6 +16,7 @@ public class UserWrapper {
         }
     }
 
+    // add User to List and write in JSON file
     public static User addUser(String login, String password, ServletContext context) {
         synchronized (LOCK) {
             List<User> userList = UserDto.readUsers(context);
@@ -34,6 +35,7 @@ public class UserWrapper {
         }
     }
 
+    // add User to List and write in JSON file
     public static User addUser(User user, ServletContext context) {
         synchronized (LOCK) {
             List<User> userList = UserDto.readUsers(context);
@@ -51,6 +53,7 @@ public class UserWrapper {
         }
     }
 
+    // change User to List and write in JSON file
     public static void changeUser(User user, ServletContext context) {
         synchronized (LOCK) {
             List<User> userList = UserDto.readUsers(context);
@@ -84,6 +87,7 @@ public class UserWrapper {
         }
     }
 
+    // find user on Login
     public static User findUserByLogin(String login, ServletContext context) {
         synchronized (LOCK) {
             List<User> userList = UserDto.readUsers(context);
