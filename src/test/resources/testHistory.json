@@ -1,0 +1,10 @@
+{
+  "Start": {
+    "Go left": "LeftPhase",
+    "Go right": "RightPhase"
+  },
+  "LeftPhase": {
+    "Fight": "END_WIN",
+    "Run": "END_LOSE"
+  }
+}
